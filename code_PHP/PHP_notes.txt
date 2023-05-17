@@ -1,0 +1,17 @@
+/*In this PHP code, we use the readline() function to read user input from the command line.
+
+Here's how the code works:
+
+The program prompts the user to enter the number of elements by displaying the message "Enter the number of elements: ".
+We use the readline() function to read the user input and assign it to the $number variable.
+We initialize variables $n1 and $n2 as 0 and 1, respectively, to represent the first two numbers in the Fibonacci series.
+We use echo to print the initial values of $n1 and $n2 with a space in between.
+The for loop is used to generate the remaining numbers in the Fibonacci series. It starts from 2 and continues until $number - 1.
+Inside the loop, we calculate the next Fibonacci number by adding the previous two numbers, $n1 and $n2, and store it in $n3.
+We use echo to print the value of $n3 with a space.
+The values of $n1 and $n2 are updated for the next iteration using $n1 = $n2 and $n2 = $n3.
+To run this code, simply save it in a PHP file (e.g., fibonacci.php), and then execute it using the PHP interpreter in the command line:
+
+Copy code
+php fibonacci.php
+The program will prompt you to enter the number of Fibonacci series elements you want, and it will print the series accordingly.*/
