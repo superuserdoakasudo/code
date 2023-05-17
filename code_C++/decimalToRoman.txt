@@ -1,0 +1,17 @@
+This function takes an integer num and a character array roman_numeral as parameters. It converts the decimal number to its Roman numeral representation and stores the result in roman_numeral.
+
+The function uses two arrays: val and symbols. The val array contains the decimal values corresponding to Roman numerals, and the symbols array contains the corresponding Roman numeral symbols.
+
+The main logic of the function involves repeatedly subtracting the largest possible value from the input number num and appending the corresponding symbol to roman_numeral until num becomes 0.
+
+The main function prompts the user to enter a decimal number between 1 and 3999. If the input is valid, it calls the decimal_to_roman function and displays the Roman numeral representation. Otherwise, it displays an error message.
+
+Here's a step-by-step explanation of how the program works:
+
+The user is prompted to enter a decimal number.
+The input number is stored in the decimal_number variable.
+An empty character array roman_numeral of size 64 is initialized to store the Roman numeral representation.
+If the input number is within the valid range (1-3999), the decimal_to_roman function is called with the decimal_number and roman_numeral arguments.
+The Roman numeral representation is stored in roman_numeral.
+Finally, the Roman numeral representation and the original decimal number are printed.
+Note: The program assumes that the user enters a valid integer as input. It does not perform input validation for non-numeric inputs or decimals.

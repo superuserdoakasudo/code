@@ -55,23 +55,8 @@ Open a terminal/command prompt in the directory where the ".rs" file is saved.
 
 Create a new Rust project using Cargo with the following command:
 
-arduino
-Copy code
-cargo new decimal_to_roman
-This command creates a new folder named "decimal_to_roman" with the necessary files for a Rust project.
+rustc filename.rs
 
-Move your "main.rs" file into the "src" folder inside the "decimal_to_roman" folder, replacing the existing "main.rs" file.
-
-Change your current working directory to the "decimal_to_roman" folder using the following command:
-
-bash
-Copy code
-cd decimal_to_roman
-Compile and run the Rust program using the following command:
-
-arduino
-Copy code
-cargo run
 This command compiles and runs the Rust program. If there are any compilation errors, they will be displayed in the terminal.
 
 Your Rust program should now be running, and you should see the output in the terminal/command prompt. */
